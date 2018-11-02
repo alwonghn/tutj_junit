@@ -1,0 +1,2 @@
+https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/
+http://maven.apache.org/surefire/maven-surefire-plugin/examples/single-test.html
