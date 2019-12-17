@@ -1,7 +1,7 @@
 package com.demo;
 
 
-import junit.framework.Assert;
+import org.junit.Assert.assertThat;
 import org.junit.Test;
 
 public class TestApp2 {
@@ -10,7 +10,8 @@ public class TestApp2 {
 	@Test
 	public void testPrintHelloWorld2() {
 
-		Assert.assertEquals(Application.getHelloWorld2(), "Hello World 2");
+		//assertThat(actual, is(equalTo(expected)));
+		assertThat("Hello World 2").equalsIgnoreCase(Application.getHelloWorld()));
 
 	}
 
